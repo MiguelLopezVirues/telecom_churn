@@ -24,3 +24,7 @@ To test the project, run `python predict_request-test.py`. It will make a reques
     - ``category_group_map.pkl``: Category mapping automatically engineered through training, called by predict_request to preprocess the customer data.
     - ``Pipfile and Pipfile.lock``
     - ``Dockerfile``
+
+## Technologies used
+
+Python, Jupyter notebook, Pipenv, Docker, AWS Elasticbeanstalk
