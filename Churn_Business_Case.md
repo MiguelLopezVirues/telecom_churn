@@ -3,7 +3,7 @@
 
 ## 1. Business Problem
 
-The telecom company is experiencing customer churn, which directly impacts revenue and customer lifetime value. **Churn rate**, the percentage of customers leaving the service, needs to be predicted in order to design targeted retention strategies. The goal is to develop a machine learning model that can accurately predict which customers are at the highest risk of churning, enabling the company to intervene proactively and reduce customer turnover.
+A telecom company is experiencing customer churn, which directly impacts revenue and customer lifetime value. **Churn rate**, the percentage of customers leaving the service, needs to be predicted in order to design targeted retention strategies. The goal is to develop a machine learning model that can accurately predict which customers are at the highest risk of churning, enabling the company to intervene proactively and reduce customer turnover.
 
 ## 2. Data Provided
 
@@ -39,4 +39,4 @@ The company expects the following actions to be accomplished:
     1. A fixed budget for the 500 top-risk customers 
     2. Adjusting the risk tolerance to maximize churn prevention campaigns profit. 
 
-By completing this task, you will help the business mitigate churn, increase retention, and improve overall profitability.
+The completion of this talk will enable the business to mitigate churn, increase retention, and improve overall profitability.
