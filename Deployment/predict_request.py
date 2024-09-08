@@ -63,18 +63,13 @@ def predict(X, pipeline_path):
         pipeline = pickle.load(f)
 
 
-    probabilities = pipeline.predict_proba(X)[:,1]
+    probabilities = pipeline.predict_proba(X)[:,1][0]
 
-    churn = (probabilities >= 0.55).astype(int)
+    churn = int(probabilities >= 0.55)
 
-    result = {
-        "churn_probability": probabilities.tolist(),
-        "churn_prediction": churn.tolist()
-    }
+    print(jsonify(churn))
 
-    print(jsonify(result))
-
-    return jsonify(result)
+    return jsonify(churn)
 
 if __name__ == "__main__":
     # if len(sys.argv) != 3:
