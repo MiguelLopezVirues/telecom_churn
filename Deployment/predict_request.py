@@ -65,7 +65,7 @@ def predict(X, pipeline_path):
 
     probabilities = pipeline.predict_proba(X)[:,1]
 
-    churn = (probabilities >= 0.5).astype(int)
+    churn = (probabilities >= 0.55).astype(int)
 
     result = {
         "churn_probability": probabilities.tolist(),
