@@ -39,4 +39,4 @@ The company expects the following actions to be accomplished:
     1. A fixed budget for the 500 top-risk customers 
     2. Adjusting the risk tolerance to maximize churn prevention campaigns profit. 
 
-By completing this task, you will help the business mitigate churn, increase retention, and improve overall profitability.
+The completion of this talk will enable the business to mitigate churn, increase retention, and improve overall profitability.
